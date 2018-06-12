@@ -1,0 +1,57 @@
+body{
+    background-color: grey; 
+    margin: 0;
+    padding: 0;   
+}
+header{
+    background-color: blue
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+main{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+/* blog */
+.blogFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.crop{
+    width:200px;
+    overflow:hidden;
+    height:50px;
+    line-height:50px;
+}
+.buttonStyle{
+    padding: 10px;
+    border: solid 1px black;
+    text-decoration: none;
+}
+
+
+.articles{
+    background-color: dodgerblue;
+    display: flex;
+    
+    margin-bottom: 20px;
+}
+.commentairesbody{
+    background-color: darkseagreen;
+    margin-bottom: 20px;
+}
